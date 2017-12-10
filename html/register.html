@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../css/register.css" />
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/register.js"></script>
+	</head>
+
+	<body>
+		<div id="login">
+			<div class="margin">
+				<div class="login-t">
+					<a href="index.html">
+						<img src="../images/logo.png" alt="" />
+					</a>
+				</div>
+				<div class="login-m">
+					<div class="title clear">
+						<h3>个人用户注册</h3>
+						<a href="login.html">已有账号？请登录</a>
+					</div>
+					<div class="login-form clear">
+						<div class="form-l">
+							<form action="">
+								<div class="name cf">
+									<div>
+										<b><span>*&ensp;</span>用户名：</b><input type="text" placeholder="您的账户名" />
+										<i></i>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span></span>
+									</div>
+								</div>
+								<div class="tel cf">
+									<div>
+										<b><span>*&ensp;</span>手机号码：</b><input type="text" placeholder="建议使用常用手机" />
+										<i></i>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span>手机号码不能为空</span>
+									</div>
+								</div>
+								<div class="message cf">
+									<div>
+										<b><span>*&ensp;</span>短信验证码：</b><input type="text" placeholder="请输入短信验证码" />
+										<button class="getmessage">获取短信验证码</button>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span></span>
+									</div>
+								</div>
+								<div class="psd cf">
+									<div>
+										<b><span>*&ensp;</span>设置登录密码：</b><input type="password" placeholder="至少使用两种字符组合" />
+										<i></i>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span></span>
+									</div>
+								</div>
+								<div class="psd-repeat cf">
+									<div>
+										<b><span>*&ensp;</span>再次输入密码：</b><input type="password" placeholder="请再次输入密码" />
+										<i></i>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span></span>
+									</div>
+								</div>
+								<div class="mail cf">
+									<div>
+										<b><span>*&ensp;</span>邮箱：</b><input type="text" placeholder="请输入您的邮箱" />
+										<i></i>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span>邮箱不能为空</span>
+									</div>
+								</div>
+								<div class="yanzheng cf clear">
+									<div>
+										<b><span>*&ensp;</span>验证码：</b><input type="text" placeholder="请输入验证码" />
+									</div>
+									<div class="automa">
+										<img class="maPic" src="http://www.yoe365.com/verify-code?" alt="" />
+										<a class="huan" href="javascript:;">换一张</a>
+									</div>
+								</div>
+								<div class="agree">
+									<div>
+										<input type="checkbox" name="" id="" value="" />
+										<span>
+										我已阅读并同意
+										<a href="javascript:;">《优易商城用户注册协议》</a>
+									</span>
+									</div>
+									<div class="tips">
+										<s></s>
+										<span>请同意并勾选</span>
+									</div>
+								</div>
+								<a class="zhuce" href="javascript:;">注册</a>
+							</form>
+
+						</div>
+						<div class="form-r">
+							<a href="javascript:;">
+								<img src="../images/register.png" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="foot"></div>
+	</body>
+
+</html>
+<script>
+	$('.foot').load('footer-public.html')
+</script>

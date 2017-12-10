@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/cart.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="margin clear">
+				<div class="h-l">欢迎来到优易办公商城！</div>
+				<ul class="h-r clear">
+					<li class="deng">
+						<a href="javascript:;" title="登录">登录</a>
+						<a href="javascript:;" title="免费注册" class="te1">免费注册</a>
+						<a href="javascript:;" title="合约用户注册" class="te1">合约用户注册</a>
+					</li>
+					<li class="deng car">
+						<span>|</span>
+						<a href="javascript:;">购物车<span></span>件</a>
+					</li>
+					<li class="deng show">
+						<span>|</span>
+						<a href="javascript:;" class="hover">我的优易</a><i></i>
+						<ul class="hide">
+							<li>
+								<a href="javascript:;">我的订单</a>
+							</li>
+							<li>
+								<a href="javascript:;">我的报表</a>
+							</li>
+							<li>
+								<a href="javascript:;">我的积分</a>
+							</li>
+							<li>
+								<a href="javascript:;">我的收藏</a>
+							</li>
+							<li>
+								<a href="javascript:;">我的资料</a>
+							</li>
+						</ul>
+					</li>
+					<li class="deng show">
+						<span>|</span>
+						<a href="" class="hover">客户服务</a><i></i>
+						<ul class="hide">
+							<li>
+								<a href="javascript:;">维修申请</a>
+							</li>
+							<li>
+								<a href="javascript:;">我的客户</a>
+							</li>
+							<li>
+								<a href="javascript:;">投诉服务</a>
+							</li>
+						</ul>
+					</li>
+					<li class="deng show">
+						<span>|</span>
+						<a href="javascript:;" class="hover">关于我们</a><i></i>
+						<ul class="hide">
+							<li>
+								<a href="javascript:;">关于优易</a>
+							</li>
+							<li>
+								<a href="javascript:;">帮助中心</a>
+							</li>
+						</ul </li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="ser">
+			<div class="margin clear">
+				<div class="logo f1">
+					<a href="index.html"><img src="../images/logo.png" alt="" /></a>
+				</div>
+				<div class="tel f1">
+					<h3>400-111-0027</h3>
+					<p>企业级办公用品一站式服务平台</p>
+				</div>
+				<div class="kuang f1">
+					<div class="search clear">
+						<input class="txt" type="text" placeholder="办公用品大集合，想搜啥就搜啥" />
+						<button type="submit"></button>
+						<ul class="res"></ul>
+					</div>
+					<div class="tips">
+						<a href="javascript:;">中性笔</a>
+						<a href="javascript:;">档案袋</a>
+						<a href="javascript:;">复印纸</a>
+					</div>
+				</div>
+				<div class="erweima">
+					<img src="../images/erweima.png" alt="" />
+					<p>优生活，易办公</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="margin">
+				<div class="content-t">
+					<ul class="clear">
+						<li>我的购物车</li>
+						<li>填写核对订单信息</li>
+						<li>成功提交订单</li>
+					</ul>
+				</div>
+				<div class="box">
+					<div class="box-t clear">
+						<input class="check-t" type="checkbox" name="" id="" value="" />
+						<span>全选</span>
+						<span>商品信息</span>
+						<span>库存属性</span>
+						<span>单价</span>
+						<span>计量单位</span>
+						<span>数量</span>
+						<span>小计</span>
+						<span>操作</span>
+					</div>
+					<div class="box-m">
+						<ul class="list">
+							<!--<li class="clear">
+								<input class="check" type="checkbox" name="" id="" value="" />
+								<img class="pic" src="http://www.yoe365.com/upload/product/A0103030155/f881f5d9-9ab4-4a19-b803-bebef87068ec.jpg" alt="" />
+								<div class="title">
+									<p>	易印Q2612A硒鼓 for 惠普 LJ1010/1012/1015/3020/1020/3030/3015/M1005/M1319F/1018打印机</p>
+									商品编号：<s>A0103030155</s>
+								</div>
+								<span class="leibie">普通商品</span>
+								<span class="price">69.00</span>
+								<span class="danwei">个</span>
+								<div class="jiajian">
+									<button class="jian">-</button>
+									<input class="num" type="text" value="1" />
+									<button class="jia">+</button>
+								</div>
+								<span class="xiaojie">69</span>
+								<a class="del" href="javascript:;">删除</a>
+							</li>-->
+						</ul>
+					</div>
+					<div class="box-b clear">
+						<div class="box-b-l">
+							<input class="check-b" type="checkbox" />
+							<span>全选</span>
+							<a href="javascript:;">删除选中商品</a>
+						</div>
+						<div class="box-b-r clear">
+							<div class="box-b-r-l">
+								<p class="priceAll">商品金额总计：<span></span>元</p>
+								<p class="numAll">商品数量：<span>2</span>件</p>
+							</div>
+							<div class="box-b-r-r">
+								<a href="javascript:;">继续购物</a>
+								<a href="javascript:;">去结算</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="foot"></div>
+	</body>
+</html>
+<script>
+	$('.foot').load('footer-public.html')
+</script>
